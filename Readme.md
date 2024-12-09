@@ -32,7 +32,7 @@ Esta é uma página web interativa inspirada na história de "The Last of Us". O
 ## 📋 Como Utilizar
  1. Clone este repositório:
     ```bash
-        git clone https://github.com/seuusuario/seurepositorio.git
+        git clone https://github.com/DanRodris/interactive-page.git
     ```    
  2. Abra o arquivo **index.html** em seu navegador.   
 

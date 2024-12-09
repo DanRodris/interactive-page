@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container ">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>The Last Of Us</h1>
+        <small>História</small>
+        <p>
+          Joel, um contrabandista marcado pela perda de sua filha Sarah no
+          início do surto, é contratado para escoltar Ellie, uma jovem de 14
+          anos, para um grupo de resistência chamado Vagalumes. Ellie é
+          especial: ela foi mordida por um infectado, mas é imune à infecção.
+          Durante a jornada, Joel e Ellie enfrentam perigos, como infectados e
+          humanos hostis, enquanto desenvolvem um laço de pai e filha. Ao chegar
+          aos Vagalumes, Joel descobre que a imunidade de Ellie só pode ser
+          usada para criar uma cura caso ela morra em um procedimento fatal.
+          Incapaz de aceitar isso, Joel resgata Ellie, mentindo para ela ao
+          dizer que os Vagalumes desistiram de procurar a cura. 
+        </p>
+        <h3>Joel e Ellie</h3>
+        <img src="https://c4.wallpaperflare.com/wallpaper/161/317/280/video-games-the-last-of-us-joel-ellie-wallpaper-preview.jpg" alt="Joel e Ellie">
+
+        <p>O jogo termina
+          com Ellie desconfiada, mas aceitando a explicação de Joel, criando um
+          final moralmente ambíguo que destaca temas de amor, sacrifício e
+          sobrevivência.</p>
+      </div>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" id="linkHome"><i class="fas fa-home"></i> Home</a></li>
+            <li><a href="#" onclick="abrirModal()"><i class="fas fa-user-alt"></i> Sobre</a></li>
+            <li><a href="#" onclick="abrirModalContato()"><i class="fas fa-envelope"></i> Contato</a></li>
+            
+        </ul>
+    </nav>
+
+    <div id="meuModal" class="modal">
+      <div class="modal-content">
+        <p>Formado em Análise e Desenvolvimento de Sistemas pela Anhanguera - SBC, sou apaixonado por tecnologia e inovação. <br></br> Estou sempre em busca de novas oportunidades de aprendizado, mantendo-me atualizado com as mais recentes técnicas e ferramentas do mercado. <br><br> Além disso, sou um profissional colaborativo e valorizo o trabalho em equipe, acreditando que a troca de ideias e a união de esforços são fundamentais para alcançar resultados extraordinários.</p>
+        <button class="close-btn" onclick="fecharModal()">Fechar</button>
+      </div>
+    </div>
+
+    <div id="abrirModalContato" class="modal abrirModalContato">
+      <div class="abrirModalContato-content">
+        <h3>Meus Links</h3>
+            <a href="https://github.com/DanRodris/" target="_blank"><i class="fa-brands fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/danrodris7/" target="_blank"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+        <button class="close-btn" onclick="fecharModalContato()">Fechar</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
